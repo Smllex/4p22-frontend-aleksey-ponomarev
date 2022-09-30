@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  border-spacing: 2px;
+  font-size: 15px;
+  table-layout: fixed;
+}
+
+tr,
+th {
+  border: solid 0px;
+  text-align: center;
+  padding: 10px;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.grey {
+  background-color: gainsboro;
+}
+
+.yellow {
+  background-color: rgb(238, 233, 94);
+}
+
+.blu {
+  background-color: rgb(136, 141, 232);
+}
+
+.green {
+  background-color: chartreuse;
+}
