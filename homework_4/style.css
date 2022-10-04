@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: aliceblue;
+  height: 100px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.card {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 15px -5px #1d2b23;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+}
+
+h3 {
+  padding: 10px;
+  margin: 5px;
+}
+
+p {
+  padding: 10px;
+  margin: 5px;
+}
+
+a {
+  margin: 0px 110px 10px;
+}
+
+a:link,
+a:visited {
+  color: black;
+  background-color: whitesmoke;
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid green;
+  text-decoration: none;
+  border-radius: 7px;
+}
+a:hover {
+  color: white;
+  background-color: green;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: gainsboro;
+  height: 150px;
+  padding: 10px;
+}
