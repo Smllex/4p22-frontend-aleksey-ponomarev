@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Homework_7</title>
+  </head>
+  <body>
+    <div class="box">
+      <div>
+        <h1>Вход</h1>
+      </div>
+      <form class="form" action="#">
+        <div class="form__email">
+          <label class="form__email-label" for="addemail">Email</label>
+          <input
+            class="form__email-input"
+            type="email"
+            id="addemail"
+            placeholder="Введите email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="form__password">
+          <label class="form__password-label" for="addpassword">Пароль</label>
+          <input
+            class="form__password-input"
+            type="password"
+            id="addpassword"
+            placeholder="Введите пароль"
+            name="Пароль"
+            required
+          />
+        </div>
+        <div class="form__check">
+          <input
+            class="form__check-input"
+            type="checkbox"
+            name="agree"
+            id="addcheck"
+            required
+          />
+          <label class="form__check-label" for="addcheck">
+            Я согласен получать обновления на почту
+          </label>
+        </div>
+        <button class="btn" type="submit" name="submit">Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
