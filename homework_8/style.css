@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.box {
+  max-width: calc(600 / 1440 * 100vw);
+  height: auto;
+  margin: calc(120 / 1440 * 100vw) auto;
+  border: solid 0.1px #ffffff;
+  border-radius: calc(20 / 1440 * 100vw);
+  text-align: center;
+  font-family: "Roboto";
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+.form__num {
+  margin-top: calc(16 / 1440 * 100vw);
+}
+
+.form__num-label {
+  display: block;
+  text-align: left;
+  padding-left: calc(50 / 1440 * 100vw);
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(16 / 1440 * 100vw);
+  color: #787878;
+}
+
+h1 {
+  color: #787878;
+  margin: calc(24 / 1440 * 100vw) 0 calc(20 / 1440 * 100vw);
+  font-size: calc(50 / 1440 * 100vw);
+  font-weight: 700;
+}
+
+.form__input-num {
+  border: 2px solid #787878;
+  border-radius: calc(10 / 1440 * 100vw);
+  width: calc(509 / 1440 * 100vw);
+  height: calc(49 / 1440 * 100vw);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(28 / 1440 * 100vw);
+  line-height: calc(36 / 1440 * 100vw);
+  color: #787878;
+  padding-left: calc(10 / 1440 * 100vw);
+  outline: none;
+}
+
+.form__num-label::placeholder,
+.form__input-num::placeholder {
+  color: #cccccc;
+}
+
+.btn {
+  width: calc(180 / 1440 * 100vw);
+  height: calc(52 / 1440 * 100vw);
+  background-color: #1a226b;
+  color: rgba(255, 255, 255, 1);
+  border-radius: calc(10 / 1440 * 100vw);
+  font-size: calc(24 / 1440 * 100vw);
+  margin-top: calc(32 / 1440 * 100vw);
+  margin-bottom: calc(32 / 1440 * 100vw);
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+
