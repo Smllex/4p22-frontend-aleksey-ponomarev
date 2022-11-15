@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.header {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  height: calc(80 / 1440 * 100vw);
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  position: relative;
+  align-items: center;
+}
+
+.header__img {
+  width: calc(222 / 1440 * 100vw);
+  height: calc(50 / 1440 * 100vw);
+  padding-left: calc(30 / 1440 * 100vw);
+}
+
+.header__h1 {
+  font-weight: 700;
+  font-size: calc(36 / 1440 * 100vw);
+  line-height: calc(44 / 1440 * 100vw);
+  margin: 0;
+  color: #787878;
+  padding-left: calc(30 / 1440 * 100vw);
+}
+
+.header__link1 {
+  font-weight: 700;
+  font-size: calc(24 / 1440 * 100vw);
+  line-height: calc(29 / 1440 * 100vw);
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: calc(120 / 1440 * 100vw);
+  transform: translateY(-50%);
+  color: #1a226b;
+}
+
+.header__link2 {
+  font-weight: 700;
+  font-size: calc(24 / 1440 * 100vw);
+  line-height: calc(29 / 1440 * 100vw);
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: calc(20 / 1440 * 100vw);
+  color: #1a226b;
+}
+
+.header__link1:visited,
+.header__link2:visited {
+  color: #787878;
+}
+
+.header__link1:active,
+.header__link2:active,
+.header__link1:hover,
+.header__link2:hover {
+  color: #1a226b;
+}
+
+.box {
+  max-width: calc(600 / 1440 * 100vw);
+  height: calc(383 / 1440 * 100vw);
+  margin: calc(125 / 1440 * 100vw) auto;
+  border: solid 0.1px #ffffff;
+  text-align: center;
+  font-family: "Roboto";
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+.form__password {
+  margin-top: calc(16 / 1440 * 100vw);
+}
+
+.form__email-label,
+.form__password-label {
+  display: block;
+  text-align: left;
+  padding-left: calc(45 / 1440 * 100vw);
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(16 / 1440 * 100vw);
+  color: #787878;
+}
+
+.h2 {
+  color: #787878;
+  margin: calc(24 / 1440 * 100vw) 0 calc(20 / 1440 * 100vw);
+  font-size: calc(50 / 1440 * 100vw);
+  font-weight: 700;
+}
+
+.form__email-input,
+.form__password-input {
+  border: 2px solid #787878;
+  width: calc(509 / 1440 * 100vw);
+  height: calc(49 / 1440 * 100vw);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: calc(28 / 1440 * 100vw);
+  line-height: calc(36 / 1440 * 100vw);
+  color: #787878;
+  padding-left: calc(10 / 1440 * 100vw);
+  outline: none;
+}
+
+.form__email-input::placeholder,
+.form__password-input::placeholder {
+  color: #cccccc;
+}
+
+.btn {
+  width: calc(180 / 1440 * 100vw);
+  height: calc(52 / 1440 * 100vw);
+  background-color: #1a226b;
+  color: rgba(255, 255, 255, 1);
+  font-size: calc(24 / 1440 * 100vw);
+  margin-top: calc(32 / 1440 * 100vw);
+  border: none;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .header__img {
+    width: calc(124 / 768 * 100vw);
+    height: calc(25 / 768 * 100vw);
+    padding-left: calc(20 / 768 * 100vw);
+  }
+
+  .header__h1 {
+    font-size: calc(24 / 768 * 100vw);
+    line-height: calc(29 / 768 * 100vw);
+    padding-left: calc(34 / 768 * 100vw);
+  }
+
+  .header__link1 {
+    font-size: calc(16 / 768 * 100vw);
+    line-height: calc(19 / 768 * 100vw);
+    right: calc(124 / 768 * 100vw);
+  }
+
+  .header__link2 {
+    font-size: calc(16 / 768 * 100vw);
+    line-height: calc(19 / 768 * 100vw);
+    right: calc(20 / 768 * 100vw);
+  }
+
+  .box {
+    max-width: calc(600 / 768 * 100vw);
+    height: calc(383 / 768 * 100vw);
+    margin: calc(80 / 768 * 100vw) auto;
+  }
+
+  .form__password {
+    margin-top: calc(16 / 768 * 100vw);
+  }
+
+  .form__email-label,
+  .form__password-label {
+    padding-left: calc(45 / 768 * 100vw);
+    font-size: calc(16 / 768 * 100vw);
+  }
+
+  .h2 {
+    margin: calc(24 / 768 * 100vw) 0 calc(20 / 768 * 100vw);
+    font-size: calc(50 / 768 * 100vw);
+  }
+
+  .form__email-input,
+  .form__password-input {
+    width: calc(509 / 768 * 100vw);
+    height: calc(49 / 768 * 100vw);
+    font-size: calc(28 / 768 * 100vw);
+    line-height: calc(36 / 768 * 100vw);
+    padding-left: calc(10 / 768 * 100vw);
+  }
+
+  .btn {
+    width: calc(180 / 768 * 100vw);
+    height: calc(52 / 768 * 100vw);
+    font-size: calc(24 / 768 * 100vw);
+    margin-top: calc(32 / 768 * 100vw);
+  }
+}

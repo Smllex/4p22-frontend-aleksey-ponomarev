@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Аттестация</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_div">
+        <img class="header__img" src="./logo.png" alt="logo" />
+      </div>
+      <h1 class="header__h1">PSD Fronted</h1>
+      <div class="header_div">
+        <a class="header__link1" href="./index2.html">Регистрация</a>
+      </div>
+      <div class="header_div">
+        <a class="header__link2" href="./index.html">Вход</a>
+      </div>
+    </header>
+    <div class="box">
+      <div>
+        <h2 class="h2">Вход</h2>
+      </div>
+      <form class="form" action="#">
+        <div class="form__email">
+          <label class="form__email-label" for="addemail">Email</label>
+          <input
+            class="form__email-input"
+            type="email"
+            id="addemail"
+            placeholder="Введите email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="form__password">
+          <label class="form__password-label" for="addpassword">Пароль</label>
+          <input
+            class="form__password-input"
+            type="password"
+            id="addpassword"
+            placeholder="Введите пароль"
+            name="Пароль"
+            required
+          />
+        </div>
+        <button class="btn" type="submit" name="submit">Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
