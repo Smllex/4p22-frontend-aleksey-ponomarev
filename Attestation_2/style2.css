@@ -107,11 +107,18 @@ body {
 .form__password-label {
   display: block;
   text-align: left;
-  padding-left: calc(45 / 1440 * 100vw);
+  padding-left: calc(33 / 1440 * 100vw);
   font-style: normal;
   font-weight: 700;
   font-size: calc(16 / 1440 * 100vw);
   color: #787878;
+}
+
+.email-out,
+.password-out {
+  padding-right: calc(45 / 1440 * 100vw);
+  float: right;
+  color: red;
 }
 
 .h2 {
@@ -319,8 +326,13 @@ body {
 
   .form__email-label,
   .form__password-label {
-    padding-left: calc(45 / 768 * 100vw);
+    padding-left: calc(33 / 768 * 100vw);
     font-size: calc(16 / 768 * 100vw);
+  }
+
+  .email-out,
+  .password-out {
+    padding-right: calc(45 / 768 * 100vw);
   }
 
   .h2 {
